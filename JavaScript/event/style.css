@@ -1,0 +1,31 @@
+body{
+    color: white;
+    font: 20px bold;
+
+}
+
+.d1 {
+    background-color: green;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    cursor: pointer;
+}
+.d2 {
+    background-color: black;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    width: 250px;
+    height: 250px;
+}
+.d3 {
+    background-color: coral;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    width: 150px;
+    height: 150px;
+    line-height: 50px;
+}
