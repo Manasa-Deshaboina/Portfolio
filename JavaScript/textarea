@@ -1,0 +1,21 @@
+import React from 'react';
+
+const textAlign ={    
+    width: '50%',
+    margin: '10px 20px',
+    height: '60px'
+};
+const TeaxtArea = ({displayName,comments }) => {
+  
+  return (
+    <div>
+        {displayName}:
+      <div>
+       <textarea style={textAlign}>{comments}</textarea>
+      </div>   
+     </div>
+
+  );
+};
+
+export default TeaxtArea;
